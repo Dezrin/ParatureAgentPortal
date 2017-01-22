@@ -1,0 +1,251 @@
+.header img {
+  float: left;
+  border: 50px;
+  width: 121px;
+  height: 89px;
+  background: none;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+body {
+	color: #FF8C00;
+}
+
+h1 {
+	color: #FF8C00;
+}
+
+p {
+	color: #000;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+input, textarea {
+  background-color : #FF8C00;
+}
+
+input[type="text"], textarea {
+
+  background-color : #FF8C00; 
+
+}
+
+#software{
+ width:400px;
+}
+
+#software option{
+  width:400px;   
+}
+
+input[type="number"], textarea {
+	
+	background-color : #FF8C00;
+	
+}
+
+#images_hz {
+width: 960px;
+height: auto;
+overflow: hidden;
+}
+#images_hz img {
+display: inline;
+margin: 0 10px;}
+
+#page-wrap {
+	margin-left: 50px;
+}
+
+input[type="textarea"], textarea {
+	
+	background-color : white;
+	
+}
+
+input[type="button"], button {
+	
+	background-color : white;
+	
+}
+
+input[type="textbox"], textbox {
+	
+	background-color : white;
+	
+}
+
+.entry:not(:first-of-type)
+{
+    margin-top: 10px;
+}
+
+.glyphicon
+{
+    font-size: 12px;
+}
+
+.notification-bar {
+    position: absolute;
+    width: 100%;
+}
+.notification-text {
+    background-color: #2980B9;
+    padding: 15px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
+.notification-bar input {
+    display: none;
+}
+.notification-bar label {
+    cursor: pointer;
+    color: #fff;
+    position: absolute;
+    z-index: 5;
+    display: inline-block;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.notification-bar label[for=hide] {
+    right: 15px;
+    top: 11px;
+    width: 24px;
+    height: 24px;
+    background: url('../img/close.png') no-repeat center center;
+}
+.notification-bar label[for=show] {
+    width: 45px;
+    height: 50px;
+    border-radius: 0px 0px 3px 3px;
+    right: 10px;
+    background: url('../img/show.png') no-repeat center center #2980B9;
+}
+
+.container{
+  width:600px;
+  border-style:dotted;
+  background:#fff;
+  margin:1px;
+  float:center;
+}
+
+.header{
+  background:url('http://cdn1.iconfinder.com/data/icons/vaga/arrow_up.png') no-repeat;
+  background-position:right 0px;
+  cursor:pointer;
+}
+
+.collapsed .header{
+  background-image:url('http://cdn2.iconfinder.com/data/icons/vaga/arrow_down.png');
+}
+
+.content{
+  height:auto;
+  min-height:100px;
+  overflow:hidden;
+  transition:all 0.3s linear;
+  -webkit-transition:all 0.3s linear;
+  -moz-transition:all 0.3s linear;
+  -ms-transition:all 0.3s linear;
+  -o-transition:all 0.3s linear;
+  width:500px;
+}
+.collapsed .content{
+  min-height:0px;
+  height:0px;
+  width:500px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #ffcc00;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #ffcc00;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #ffcc00;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #ffcc00;
+}
+
+#menu .gsst_a a {
+    height: auto;
+    line-height: normal;
+    padding: 3px 0 0 0;
+}
+
+hr {
+	border: 0;
+	width: 100%;
+	color: #FF8C00;
+	background-color: #FF8C00;
+	height: 5px;
+}
+
+input[type="password"]
+{
+  -webkit-text-security: disc;
+  color: #000;
+	font: large Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+	width: 430px;
+	height: 50px;
+	border: 0px;
+	letter-spacing: 1px;
+}
+
+.container1 {
+    margin-top: 30px;
+    width: 400px;
+}​
+
+.bar {
+  -webkit-transition: width 30.0s ease !important;
+     -moz-transition: width 30.0s ease !important;
+       -o-transition: width 30.0s ease !important;
+          transition: width 30.0s ease !important;
+}
+
+/* "auto" makes the left and right margins center the wrapper */
+#wrapper { 
+	width: 900px; 
+	margin: 0 auto; 
+}
+
+.fluidMedia {
+    position: relative;
+    padding-bottom: 21.25%; /* proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.fluidMedia iframe {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
